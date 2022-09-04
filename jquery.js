@@ -11,7 +11,7 @@ playBtn.click(function () {
 });
 
 //Global Variables for game
-let cookieCount = 0;
+let cookieCount = 5000;
 const htmlCookies = $("#html-counter");
 const cookie = $("#cookie-img");
 const granny = $("#granny");
@@ -61,13 +61,13 @@ oven.click(function () {
 });
 factory.click(function () {
   if (cookieCount >= factPrice) {
-    Incre += 50;
+    cookieIncre += 50;
     cookieCount -= factPrice;
     factPrice *= 2;
     factCount += 1;
     cookieCount += factIncre;
     granCost.text(`Cost: ${factPrice} cookies, Output: 50 cookie/second`);
-    factoryStats.text(`Factories purchased: ${factCount}`);
+    factStats.text(`Factories purchased: ${factCount}`);
   } else alert("Not enough cookies!");
 });
 cookie.click(function () {
