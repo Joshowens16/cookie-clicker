@@ -1,0 +1,172 @@
+
+#header{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Indie Flower', cursive;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#title {
+    display: flex;
+    font-size: 18px;
+    letter-spacing: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    filter: drop-shadow(30px 10px 3px #757aab);
+}
+.nav-btn{
+    border-radius: 40px;
+    padding: 5px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#menu-btn{
+    margin-right: 10px;
+}
+#reset-btn{
+    margin-left: 10px;
+}
+
+
+#cookie-game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: lightgray;
+    margin-bottom: 50px;
+}
+#cookie-with-counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 50px;
+    background-color: rgb(236, 236, 236);
+}
+#cookie-img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem #929292);
+/*--------------
+----------*/
+}
+
+
+#html-counter{
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+#shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: .5;
+    /*------------------------*/
+
+
+}
+.purchases {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    
+    /*------------------------*/
+
+}
+#granny{
+    filter: drop-shadow(3px 3px 1px #757aab);
+    cursor: pointer;
+}
+#oven{
+    filter: drop-shadow(3px 3px 1px #757aab);
+    cursor: pointer;
+}
+#factory{
+    filter: drop-shadow(3px 3px 1px #757aab);
+    cursor: pointer;
+}
+
+#purchase-stats{
+    padding-left: 20px;
+}
+#gran-cost-text {
+    cursor: pointer;
+}
+#oven-cost-text{
+    cursor: pointer;
+}
+#factory-cost-text{
+    cursor: pointer;
+}
+#cookies-per-sec {
+    cursor: pointer;;
+    letter-spacing: 5px;
+}
+.stats{
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+
+#main-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 750px;
+}
+#game{}
+#menu-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: rgb(233, 233, 233);
+}
+#menu-nav h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 64px;
+    letter-spacing: 10px;
+    filter: drop-shadow(10px 10px 6px #00000056);
+}
+#menu-nav h2{
+    line-height: 40px;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    filter: drop-shadow(2px 2px 5px #949494);
+}
+#menu-nav button {
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: lightgray;
+}
+#menu-nav button:hover{
+    letter-spacing: 2px;
+    filter: drop-shadow(0 0 2rem #00000053);
+}
+#granny-stats{}
+#oven-stats{}
+#factory-stats{}

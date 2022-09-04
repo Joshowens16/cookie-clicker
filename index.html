@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+
+    <title>Cookie Clicker</title>
+</head>
+<body>
+<div id="main-menu">
+    <div id="menu-nav">
+        <h1>Cookie Clicker</h1>
+        <h2>Your town, Soda Springs, is in BIG trouble. Tomorrow is the annual cookie
+            festival and the baker, Huckleberry Goodensmith, is sick! You need to save 
+            your town and make as many cookies as possible!
+        </h2>
+        <button id="menu-button">Click here to bake the cookies!</button>
+    </div>
+</div>
+<div id="game">
+    <div id="header">
+        <div id="title">
+            <h1>COOKIE CLICKER</h1>
+        </div>
+        <div id="nav">
+            <button id="menu-btn" class="nav-btn">Menu</button>
+        </div>
+    </div id>
+        <div id="cookie-game">
+            <div id="purchase-stats">
+                <div class="stats" id="granny-stats">
+                    Grannies hired: 0
+                </div>
+                &nbsp;
+                <div class="stats" id="oven-stats">
+                    Oven's purchased: 0
+                </div>
+                &nbsp;
+                <div class="stats" id="factory-stats">
+                    Factories purchased: 0
+                </div>
+            </div>
+            <div id="cookie-with-counter">
+                <h3 id="html-counter">Cookie count: 0</h3>
+                    <img src="images/Cookie_clicker-removebg-preview.png" id="cookie-img">
+                <h3 id="cookies-per-sec">Cookies/second: 0</h3>
+            </div>
+            <div id="shop">
+                <h2>Hire a granny!</h2>
+                <img src="images/cookie-granny.png" alt="hire a granny" id="granny" class="purchases">
+                <p id="gran-cost-text">Cost: 15 cookies, Output: 1 cookie/second</p>
+                <h2>Buy an oven!</h2>
+                <img src="images/oven.png" alt="buy an oven!" id="oven" class="purchases">
+                <p id="oven-cost-text">Cost: 500 cookies, Output: 10 cookie/second</p>
+                <h2>Buy a factory!</h2>
+        
+                <img src="images/factory.png" alt="buy a factory!" id="factory" class="purchases">
+                <p id="factory-cost-text">Cost: 5000 cookies, Output: 50 cookie/second</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="jquery.js"></script>
+</body>
+</html>
