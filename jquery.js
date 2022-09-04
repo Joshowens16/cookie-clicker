@@ -11,7 +11,7 @@ playBtn.click(function () {
 });
 
 //Global Variables for game
-let cookieCount = 5000;
+let cookieCount = 0;
 const htmlCookies = $("#html-counter");
 const cookie = $("#cookie-img");
 const granny = $("#granny");
